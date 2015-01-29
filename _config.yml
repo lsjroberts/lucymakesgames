@@ -1,0 +1,16 @@
+# Site settings
+title: Lucy Makes Games
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://lucymakesgames.com" # the base hostname & protocol for your site
+twitter_username: LJPullinger
+
+# Build settings
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "post"
