@@ -139,22 +139,6 @@
             overflow: hidden;
         }
     }
-
-    // .post-content {
-    //     position: relative;
-    //     padding-bottom: 30.25%;
-    //     height: 0;
-    //     overflow: hidden;
-
-    //     iframe {
-    //         position: absolute;
-    //         top: 0;
-    //         left: 0;
-    //         width: 100%;
-    //         height: 100%;
-    //         background: white;
-    //     }
-    // }
 }
 
 
@@ -232,5 +216,16 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+}
+
+.tumblr {
+    .tumblr_posts {
+        margin: 0;
+    }
+
+    .tumblr_post {
+        margin: $spacing-unit 0;
+        list-style: none;
     }
 }

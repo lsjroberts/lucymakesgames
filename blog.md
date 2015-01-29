@@ -4,4 +4,6 @@ title: Blog
 permalink: /blog/
 ---
 
-Add tumblr embed here.
+<div class="tumblr">
+    <script type="text/javascript" src="http://lucymakesgames.tumblr.com/js"></script>
+</div>
